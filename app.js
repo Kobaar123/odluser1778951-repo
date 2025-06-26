@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
         res.render('inventory', { cars: cars });
     });
 });
-
+//whatever
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
